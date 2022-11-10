@@ -59,16 +59,6 @@ grant dba to c##deducation;
 
 8. If no errors are shown we are good to go!
 
-## Supervisor
 
-- Khaled Mahmud Shahriar
-
-  - **Assistant Professor**
-
-    :arrow_forward: **Contact:**
-
-    Department of Computer Science and Engineering
-    Bangladesh University of Engineering and Technology
-    Dhaka-1000, Bangladesh
 
 <p align="right">(<a href="#top">back to top</a>)</p>
