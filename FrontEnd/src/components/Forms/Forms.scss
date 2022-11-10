@@ -1,0 +1,92 @@
+@import "../components.scss";
+@import "../../images.scss";
+
+.login-form,
+.sign-up-form {
+  position: relative;
+  background-color: #fff;
+  // background-color: #16344e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  .form-header {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    @include flexCenter;
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  .login-button {
+    height: 50px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+  }
+  .sign-up-button {
+    width: 75%;
+    height: 50px;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    &:hover {
+      color: white;
+    }
+  }
+  .reset-password {
+    width: 100%;
+    cursor: pointer;
+    color: grey;
+    text-decoration: underline;
+    text-decoration-color: grey;
+    &:hover {
+      // text-decoration-color: black;
+      color: rgb(88, 88, 88);
+    }
+    &:hover {
+      text-decoration-color: grey;
+    }
+  }
+  .login-link {
+    cursor: pointer;
+    color: grey;
+    text-decoration: underline;
+    text-decoration-color: grey;
+    &:hover {
+      // text-decoration-color: black;
+      color: rgb(88, 88, 88);
+    }
+  }
+  .exit-button {
+    position: absolute;
+    right: 4%;
+    top: 2vh;
+    transition: 0.5s;
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(200, 200, 200);
+    }
+  }
+}
+
+.sign-up-form {
+  .sign-up-button {
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.checked-role {
+  font-family: "poppins", sans-serif;
+  font-weight: bold;
+}
+
+.unchecked-role {
+  color: rgb(150, 150, 150);
+}

@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("./assets/fonts/Oswald/static/Oswald-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Kdam Thmor Pro";
+  src: url("./assets/fonts/Kdam_Thmor_Pro/KdamThmorPro-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  cursor: default;
+  user-select: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

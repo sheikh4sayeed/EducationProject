@@ -1,0 +1,23 @@
+@import "../components.scss";
+.offer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  .input-fields {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    // padding: 0.7rem 0;
+    width: 100%;
+    gap: 1rem;
+  }
+  .offer-button {
+    @include my-button;
+    margin: 0 auto;
+    font-size: 2rem;
+    color: rgb(232, 229, 229);
+    background-color: #164a4e;
+    width: 100%;
+  }
+}
