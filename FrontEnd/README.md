@@ -52,20 +52,4 @@ You should find that the project is working!
 - Material Ui
 - SCSS
 
-## Video Demonstration:<a name="video-demonstration"></a>
 
-- [Demo (Youtube)](https://www.youtube.com/watch?v=CpvlSI-OA48)
-
-## Supervisor
-
-- Khaled Mahmud Shahriar
-
-  - **Assistant Professor**
-
-    :arrow_forward: **Contact:**
-
-    Department of Computer Science and Engineering
-    Bangladesh University of Engineering and Technology
-    Dhaka-1000, Bangladesh
-
-<p align="right">(<a href="#top">back to top</a>)</p>
