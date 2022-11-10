@@ -1,0 +1,12 @@
+CREATE OR REPLACE TYPE NOTICE AS OBJECT (
+	name						VARCHAR2(100),
+	image						VARCHAR2(100),
+	class        		VARCHAR2(100),
+	subject					VARCHAR2(100),
+	text 						VARCHAR2(1024),
+	timestamp 			VARCHAR2(100)
+);
+/
+
+CREATE OR REPLACE TYPE NOTICE_ARRAY AS TABLE OF NOTICE;
+/

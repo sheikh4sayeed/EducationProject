@@ -1,0 +1,11 @@
+CREATE OR REPLACE TYPE EDUCATION AS OBJECT (
+	eq_id 					NUMBER,
+	institute 			VARCHAR2(100),
+	field_of_study 	VARCHAR2(100),
+	degree					VARCHAR2(100),
+	passing_year		NUMBER
+);
+/
+ 
+CREATE OR REPLACE TYPE EDUCATION_ARRAY AS TABLE OF EDUCATION; -- Problem
+/ 

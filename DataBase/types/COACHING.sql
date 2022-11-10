@@ -1,0 +1,12 @@
+CREATE OR REPLACE TYPE COACHING AS OBJECT (
+	coaching_id    	NUMBER,
+	image          	VARCHAR2(100),
+	name           	VARCHAR2(100),
+	address					VARCHAR2(1024),
+	phone_number 		VARCHAR2(15),
+	type						VARCHAR2(100)
+);
+/
+
+CREATE OR REPLACE TYPE COACHING_ARRAY AS TABLE OF COACHING;
+/

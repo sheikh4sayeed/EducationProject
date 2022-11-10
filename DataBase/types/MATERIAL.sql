@@ -1,0 +1,12 @@
+CREATE OR REPLACE TYPE MATERIAL AS OBJECT (
+	material_type 	VARCHAR2(100),
+	description			VARCHAR2(1024),
+	link        		VARCHAR2(100),
+	name						VARCHAR2(100),
+	image						VARCHAR2(100),
+	timestamp 			VARCHAR2(100)
+);
+/
+ 
+CREATE OR REPLACE TYPE MATERIAL_ARRAY AS TABLE OF MATERIAL; -- Problem
+/ 
