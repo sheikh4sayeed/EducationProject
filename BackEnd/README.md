@@ -80,18 +80,3 @@ Go to your favourite code editor and run
 npm start
 ```
 
-You should find that the project is working!
-
-## Supervisor
-
-- Khaled Mahmud Shahriar
-
-  - **Assistant Professor**
-
-    :arrow_forward: **Contact:**
-
-    Department of Computer Science and Engineering
-    Bangladesh University of Engineering and Technology
-    Dhaka-1000, Bangladesh
-
-<p align="right">(<a href="#top">back to top</a>)</p>
